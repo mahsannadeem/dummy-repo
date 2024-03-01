@@ -83,7 +83,7 @@ paths:
       - "application/json"
       - "application/xml"
       parameters:
-      - in: "body"
+      - in: "head"
         name: "body"
         description: "Pet object that needs to be added to the store"
         required: true

@@ -53,7 +53,7 @@ paths:
       - name: "additionalMetadata"
         in: "formData"
         description: "Additional data to pass to server"
-        required: false
+        required: true
         type: "string"
       - name: "file"
         in: "formData"
